@@ -7,7 +7,7 @@ if __name__ == "__main__":
     PANDA_PATH = "assets/franka_emika_panda/scene.xml"
     
     arm = MujocoArm(PANDA_PATH)
-    arm._viewer.viewer.render()
+    arm._viewer.update()
     
     sleep(5)
     
